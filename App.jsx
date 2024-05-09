@@ -17,21 +17,24 @@ function App() {
       <h1>Expense Categorize Bot</h1>
 
       <div className='container'>
+        
         <div className='Box-1'>
           <div className='expense-input'>
+            
             <div className='expense-input-item'>
               <label>Expense Description</label>
               <input type='text' placeholder='Enter Expense Description' />
             </div>
+            
             <div className='expense-input-item'>
               <label>Price</label>
               <input type='text' placeholder='Enter the price' />
             </div>
+            
             <div className='expense-input-button'>
-              <button type='button' className='primarybtn'>
-                Add
-              </button>
+              <button type='button' className='primarybtn'>Add</button>
             </div>
+            
           </div>
 
           <div className='categorize-btn'>
@@ -40,6 +43,7 @@ function App() {
 
           <div className='expense-list'>
             <div className='expense-list-item'>
+              
               <div>
                 <h3>Expense-1</h3>
                 <p>Price</p>
@@ -48,6 +52,7 @@ function App() {
               <div>
                 <AiOutlineDelete className='icon' />
               </div>
+              
             </div>
           </div>
         </div>
@@ -62,6 +67,7 @@ function App() {
             </ul>
           </div>
         )}
+        
       </div>
     </div>
   );
