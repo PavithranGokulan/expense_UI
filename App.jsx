@@ -12,6 +12,10 @@ function App() {
     setShowCategorizedBox(true);
   };
 
+  useEffect(()=>{
+    document.title = "Expense Categorization Bot"
+  })
+
   return (
     <div className='App'>
       <h1>Expense Categorize Bot</h1>
